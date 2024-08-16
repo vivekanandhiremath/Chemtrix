@@ -106,14 +106,13 @@ public class CollectionEntryPage {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
+
 				e.printStackTrace();
 			}
 			elementUtils.typeTextIntoElement(transactionDate, transactiondate, CommonUtils.EXPLICIT_WAIT_BASIC_TIME);
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
